@@ -127,9 +127,9 @@ class BinaryTree {
                     if(replace.right !== null){
                         replace = replace.right;
                     }
-                    flowing.left = replace.left;
-                    replace.right = flowing.right;
-                    replace.left = flowing.left;
+                    //flowing.left = replace.left;
+                    //replace.right = flowing.right;
+                    //replace.left = flowing.left;
                     else if (act.data < parent.data){
                         parent.left = replace;
                     } 
